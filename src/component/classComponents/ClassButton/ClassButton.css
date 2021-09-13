@@ -1,0 +1,16 @@
+.Vision {
+  right: 40px;
+  color: rgba(255, 255, 255, 9);
+  position: absolute;
+  margin-top: -37px;
+}
+
+@media screen and (max-width: 720px) {
+  .Vision {
+    right: 40px;
+    cursor: default;
+    position: absolute;
+    color: rgba(255, 255, 255, 9);
+  }
+}
+

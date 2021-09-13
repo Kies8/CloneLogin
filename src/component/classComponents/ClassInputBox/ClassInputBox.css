@@ -1,0 +1,92 @@
+/* div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+} */
+
+/* input {
+    background-color: rgba(0, 0, 0, 0.452);
+} */
+
+.div-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.text {
+    font-size: small;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    padding: 0 0 0 20px;
+    color: white;
+    background-color: rgba(255,255,255,.08);
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    /* background: transparent; */
+    margin-top: 0.75rem;
+    outline: none;
+    height: 50px;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.text:focus {
+    border: 0px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    transition: delay 0.6em;
+    transition-duration: 1s;
+
+}
+
+.text::placeholder {
+    color: white;
+}
+
+.text:hover {
+    border: 0.001px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    transition-delay: 0.1s;
+}
+
+@media screen and (min-width: 720px) {
+    .check {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        font-size: small;
+        margin-top: 0.75rem;
+        color: #FBCEB5;
+        outline: 0 solid #FBCEB5;
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .check {
+        margin-top: 0.75rem;
+    }
+}
+
+.Sign-in {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 15px;
+    background-color: #FBCEB5;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 0.75rem;
+    padding: 6px 20px;
+    height: 50px;
+    outline: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

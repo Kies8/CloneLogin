@@ -1,0 +1,38 @@
+.data-gender {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.data-gender input {
+    width: 170px;
+}
+
+.data-gender select {
+    width: 110px;
+}
+
+.data-gender select > option{
+    color: #000000;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin-right: 7px;
+}
+
+@media only screen and (max-width: 319px) {
+    .data-gender input {
+        width: 130px;
+    }
+    .data-gender input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .data-gender select {
+        width: 140px;
+    }
+}
